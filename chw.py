@@ -7,7 +7,9 @@ class Home(web.View):
         return web.Response('Hello World!')
 
 
-routes = [['/', Home]]
+routes = [
+    ['/', Home]
+]
 
 
 if __name__ == '__main__':
